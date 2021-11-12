@@ -1,0 +1,121 @@
+.boton1 {
+  padding: 10px;
+  position: absolute;
+  left: 150px;
+  top: 40px;
+  font-size: 15px;
+}
+.boton2 {
+  padding: 10px;
+  position: absolute;
+  margin: 20px;
+  left: 200px;
+  top: 20px;
+  font-size: 15px;
+}
+.boton3 {
+  display: flex;
+  padding: 10px;
+  position: absolute;
+  margin: 20px;
+  left: 290px;
+  top: 20px;
+  font-size: 15px;
+}
+.boton4 {
+  border-radius: 20px;
+  width: 70px;
+  justify-content: center;
+  padding: 10px;
+  position: absolute;
+  margin: 20px;
+  left: 1060px;
+  top: 20px;
+  font-size: 15px;
+}
+.boton5 {
+  justify-content: center;
+  width: 70px;
+  border-radius: 20px;
+  padding: 10px;
+  position: absolute;
+  margin: 20px;
+  left: 1150px;
+  top: 20px;
+  font-size: 15px;
+}
+.boton6 {
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 10px;
+  position: absolute;
+  margin-left: 530px;
+  margin-top: 20px;
+}
+.boton7 {
+  position:absolute;
+  margin-left: 650px;
+  margin-top: 20px;
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 10px;
+  
+}
+.boton4:hover {
+  
+  background-color: white;
+  color: tomato;
+}
+
+.boton5:hover {
+  background-color: white;
+  color: tomato;
+}
+
+.boton7:hover {
+
+  background-color: white;
+  color: tomato;
+}
+
+.boton6:hover {
+  background-color: white;
+  color: tomato;
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+#menuu{
+  list-style: none;
+  margin:auto;
+  width: 700px;
+}
+
+ul,ol{
+  list-style: none;
+}
+
+.menu2 ul li a{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 5px 3px;
+  display: block;
+  }
+  .menu2 ul li a:hover{
+    background-color: rgb(73, 72, 72);
+}
+
+.menu2>li{
+  float:left ;
+}
+.menu2 li ul{
+  display: none;
+  position: absolute;
+  min-width: 140px;
+}
+.menu2 li:hover >ul{
+display: block;
+}
